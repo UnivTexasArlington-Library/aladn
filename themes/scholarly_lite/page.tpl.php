@@ -52,7 +52,7 @@
         <div id="header-inside" class="clearfix">
             <div class="row">
             
-                <div class="col-md-4">
+                <div class="col-sm-5">
                     <!-- #header-inside-left -->
                     <div id="header-inside-left" class="clearfix">
 
@@ -68,11 +68,7 @@
                     </div>
                     <?php endif; ?>
                     
-                    <?php if ($site_slogan):?>
-                    <div id="site-slogan">
-                    <?php print $site_slogan; ?>
-                    </div>
-                    <?php endif; ?>
+                    
                     
                     <?php if ($page['header']) :?>
                     <?php print render($page['header']); ?>
@@ -82,10 +78,14 @@
                     <!-- EOF:#header-inside-left -->
                 </div>
                 
-                <div class="col-md-8">
+                <div class="col-sm-7">
                     <!-- #header-inside-right -->
                     <div id="header-inside-right" class="clearfix">
-
+                        <?php if ($site_slogan):?>
+                        <div id="site-slogan">
+                        <?php print $site_slogan; ?>
+                        </div>
+                        <?php endif; ?>
                         <!-- #main-navigation -->
                         <div id="main-navigation" class="clearfix">
                             <nav>
