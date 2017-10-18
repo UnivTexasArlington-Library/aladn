@@ -302,7 +302,7 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 }
 
 @media (max-width: 991px) { 
-	.subfooter-area { text-align: center; }
+	.footer-area, .subfooter-area { text-align: center; }
 }
 
 /*Menus*/
@@ -563,7 +563,7 @@ display: block; background-color: #c2c2c2; right: 0; text-align: center; color: 
 
 #site-name { padding:0; margin: 5px 0 0 0; }
 
-#site-name a { font-size: 32px; font-weight: 700; line-height:1.1; color: #252525; }
+#site-name a { font-size: 40px; font-weight: 700; line-height:1.1; color: #252525; }
 
 #site-name a:hover { text-decoration: none; opacity: 0.8; filter: alpha(opacity=80); -webkit-transition: all 0.2s ease-in-out; 
 -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
@@ -571,7 +571,7 @@ display: block; background-color: #c2c2c2; right: 0; text-align: center; color: 
 #site-slogan { font-size: 13px; line-height:1.30; color: #252525; padding:0; font-weight: 700; }
 
 @media (min-width: 992px) and (max-width: 1199px) { 
-	#site-name a { font-size: 24px; }
+	
 	#site-slogan { font-size: 12px; }
 }
 
@@ -580,6 +580,7 @@ display: block; background-color: #c2c2c2; right: 0; text-align: center; color: 
 	-webkit-transform: scale(0.75); -moz-transform: scale(0.75); -ms-transform: scale(0.75); -o-transform: scale(0.75); transform: scale(0.75); }
 	#site-name, #site-slogan { text-align: center; }
 	#site-name {margin: 5px 0 0 0;}
+	#site-name a { font-size: 24px; }
 	#site-slogan { padding: 5px 0 0 0; }	
 }
 
