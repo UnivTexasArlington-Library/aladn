@@ -87,7 +87,7 @@ blockquote {
 	color:#a3a3a3; text-decoration: underline;
 }
 @media (min-width: 1199px) {
-	#main-container {
+	#main-content {
 		min-height: 35em;
 	}
 }
