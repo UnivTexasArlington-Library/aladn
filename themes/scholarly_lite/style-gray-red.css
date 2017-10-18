@@ -79,3 +79,10 @@ background-color: rgba(0,0,0,0.2)!important; }
 blockquote {
 	font-size: 18px;
 }
+#footer {
+	padding:10px 0 5px 0;
+}
+
+#subfooter-inside a {
+	color:#fff; text-decoration: underline;
+}
