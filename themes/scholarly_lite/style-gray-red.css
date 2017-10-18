@@ -1,6 +1,12 @@
-#main-navigation .sf-menu li li.sfHover>a, #main-navigation ul.menu li a:hover, #header-top ul.menu li a:hover, #header-top .sf-menu li li.sfHover>a,
-#header-top ul.menu>li>a.active, #header-top ul.main-menu.menu>li.active-trail>a:hover, #header-top .sf-menu>li.sfHover>a,
-.header-top-area .form-text, .header-top-area select { background-color: #660d00; }
+#main-navigation .sf-menu li li.sfHover>a, 
+#main-navigation ul.menu li a:hover, 
+#header-top ul.menu li a:hover, 
+#header-top .sf-menu li li.sfHover>a,
+#header-top ul.menu>li>a.active, 
+#header-top ul.main-menu.menu>li.active-trail>a:hover, 
+#header-top .sf-menu>li.sfHover>a,
+.header-top-area .form-text, 
+.header-top-area select { background-color: #660d00; }
 
 .header-top-area table td, .header-top-area table th { border-color: #660d00; }
 
@@ -55,4 +61,13 @@ ul.links li a:hover, a.more:hover, input[type="submit"]:hover, input[type="reset
 .header-top-area .form-actions input, .footer-area .form-actions input, .subfooter-area .form-actions input {
 background-color: rgba(0,0,0,0.2)!important; }
 
-#header {background-color: #dccca4;}
+#header {background-color: #dccca4; padding:20px 0 10px 0;}
+#main-navigation ul.menu li a.active, #main-navigation ul.menu li a.active-trail {
+	background-color: #7f2d26;
+}
+#main-navigation ul.menu li a.active:hover, #main-navigation ul.menu li a.active-trail:hover {
+	background-color:#bc4e47;
+}
+.header-top-area p {
+	padding:0;
+}
