@@ -457,8 +457,8 @@ function scholarly_lite_preprocess_page(&$variables) {
 	}	
 
 	if($header_top_left && $header_top_right) { 
-		$variables['header_top_left_grid_class'] = 'col-md-8';
-		$variables['header_top_right_grid_class'] = 'col-md-4';
+		$variables['header_top_left_grid_class'] = 'col-md-9';
+		$variables['header_top_right_grid_class'] = 'col-md-3';
 	} elseif ($header_top_right || $header_top_left) {
 		$variables['header_top_left_grid_class'] = 'col-md-12';
 		$variables['header_top_right_grid_class'] = 'col-md-12';		
