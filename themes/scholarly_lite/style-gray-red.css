@@ -86,3 +86,8 @@ blockquote {
 #subfooter-inside a {
 	color:#fff; text-decoration: underline;
 }
+@media (min-width: 1199px) {
+	#main-container {
+		min-height: 35em;
+	}
+}
