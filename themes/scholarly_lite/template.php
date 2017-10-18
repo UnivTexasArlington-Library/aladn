@@ -418,8 +418,8 @@ function scholarly_lite_preprocess_page(&$variables) {
 				$variables['sidebar_second_grid_class'] = 'col-md-2';
 			}
 		} elseif ($sidebar_first && !$sidebar_second) {
-			$variables['main_grid_class'] = 'col-md-8';
-			$variables['sidebar_first_grid_class'] = 'col-md-4 fix-sidebar-first';
+			$variables['main_grid_class'] = 'col-md-9';
+			$variables['sidebar_first_grid_class'] = 'col-md-3 fix-sidebar-first';
 		} elseif (!$sidebar_first && $sidebar_second) {
 			$variables['main_grid_class'] = 'col-md-8';
 			$variables['sidebar_second_grid_class'] = 'col-md-4 fix-sidebar-second';		

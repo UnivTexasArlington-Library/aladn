@@ -62,12 +62,20 @@ ul.links li a:hover, a.more:hover, input[type="submit"]:hover, input[type="reset
 background-color: rgba(0,0,0,0.2)!important; }
 
 #header {background-color: #dccca4; padding:20px 0 10px 0;}
+#main-navigation ul.menu {text-align:left;}
 #main-navigation ul.menu li a.active, #main-navigation ul.menu li a.active-trail {
 	background-color: #7f2d26;
+	color:#fff;
 }
 #main-navigation ul.menu li a.active:hover, #main-navigation ul.menu li a.active-trail:hover {
 	background-color:#bc4e47;
 }
+#main-navigation ul.menu li.first {
+	margin-left:0;
+}
 .header-top-area p {
 	padding:0;
+}
+blockquote {
+	font-size: 18px;
 }
