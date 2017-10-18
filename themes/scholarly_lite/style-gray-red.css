@@ -6,13 +6,13 @@
 #header-top ul.main-menu.menu>li.active-trail>a:hover, 
 #header-top .sf-menu>li.sfHover>a,
 .header-top-area .form-text, 
-.header-top-area select { background-color: #660d00; }
+.header-top-area select { background-color: #7f2d26; }
 
-.header-top-area table td, .header-top-area table th { border-color: #660d00; }
+.header-top-area table td, .header-top-area table th { border-color: #7f2d26; }
 
-#header-top ul.menu li a { border-left: 1px solid #660d00; }
+#header-top ul.menu li a { border-left: 1px solid #7f2d26; }
 
-#header-top ul.menu li:last-child>a { border-right: 1px solid #660d00; }
+#header-top ul.menu li:last-child>a { border-right: 1px solid #7f2d26; }
 
 a, blockquote:after, ul.menu li.collapsed > a:before, ul.menu li.expanded > a:before, .footer-area ul.menu li.active-trail > a:before, ul.pager li.pager-current, 
 .item-list ul li.pager-current.last, .node-mt .comment-counter, .comment ul.links li a, .ui-widget-content a, .view-mt-testimonials .views-field-title a,
@@ -84,7 +84,7 @@ blockquote {
 }
 
 #subfooter-inside a {
-	color:#fff; text-decoration: underline;
+	color:#a3a3a3; text-decoration: underline;
 }
 @media (min-width: 1199px) {
 	#main-container {
