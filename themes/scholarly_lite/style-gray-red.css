@@ -91,3 +91,14 @@ blockquote {
 		min-height: 35em;
 	}
 }
+@media (max-width: 768px) {
+	#main-content {
+		padding:20px 10px;
+	}
+	.sidebar .block {
+		padding:0;
+	}
+	#block-block-3 img {
+		max-width: 100px;
+	}
+}
