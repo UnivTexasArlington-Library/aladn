@@ -52,7 +52,7 @@
         <div id="header-inside" class="clearfix">
             <div class="row">
             
-                <div class="col-sm-5">
+                <div class="col-md-12">
                     <!-- #header-inside-left -->
                     <div id="header-inside-left" class="clearfix">
 
@@ -78,7 +78,7 @@
                     <!-- EOF:#header-inside-left -->
                 </div>
                 
-                <div class="col-sm-7">
+                <div class="col-md-12">
                     <!-- #header-inside-right -->
                     <div id="header-inside-right" class="clearfix">
                         <?php if ($site_slogan):?>
