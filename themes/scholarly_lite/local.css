@@ -1,2 +1,4 @@
 /* Custom CSS overrides */
-
+#main-navigation ul.menu li {
+	margin:0 2px;
+}
